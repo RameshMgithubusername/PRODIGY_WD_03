@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="tic.css" />
+    <title>PRODIGY_WD_3</title>
+  </head>
+  <body>
+    <div id="main">
+      <h1>Tic Tac Tio Game</h1>
+      <br />
+      <p>Chosse any one Symbol.</p>
+      <br />
+      <input type="checkbox" id="ch1" class="input_ch1" onclick="checkbox1()" />
+      <label>X</label>
+      <input type="checkbox" id="ch2" class="input_ch2" onclick="checkbox2()" />
+      <label>O</label>
+
+      <div id="main1">
+        <input type="text" id="v1" class="Grid" onclick="my1()" />
+        <input type="text" id="v2" class="Grid" onclick="my2()" />
+        <input type="text" id="v3" class="Grid" onclick="my3()" />
+      </div>
+    </div>
+    <div id="main">
+      <div id="main1">
+        <input type="text" id="v4" class="Grid" onclick="my4()" />
+        <input type="text" id="v5" class="Grid" onclick="my5()" />
+        <input type="text" id="v6" class="Grid" onclick="my6()" />
+      </div>
+    </div>
+    <div id="main">
+      <div id="main1">
+        <input type="text" id="v7" class="Grid" onclick="my7()" />
+        <input type="text" id="v8" class="Grid" onclick="my8()" />
+        <input type="text" id="v9" class="Grid" onclick="my9()" />
+      </div>
+    </div>
+
+    <div id="main">
+      <h1 id="win"></h1>
+    </div>
+    <script src="tic.js"></script>
+  </body>
+</html>
